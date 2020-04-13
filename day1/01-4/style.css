@@ -8,10 +8,9 @@ body {
 .container {
     background: #23424A;
     color: white;
-
     width: 80%;
     margin: 0 auto;
-    
+    /* didn't set width for .intro-content (inner container) */
     padding: 2em;
-    height: 300px;
+    /* height: 300px; */
 }
