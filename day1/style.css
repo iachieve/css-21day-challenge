@@ -14,3 +14,8 @@ body {
     padding: 2em;
     /* height: 300px; */
 }
+
+.intro-content{
+    width: 50%;
+    background-color: orangered;
+}
