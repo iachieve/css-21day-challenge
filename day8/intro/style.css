@@ -18,8 +18,23 @@ h1{
   margin: 0 auto;
   max-width: 1200px;
     border: 1px solid red;
-
 }
+.row{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid darkslategray;
+}
+
+.col{
+  /* margin: 10px; */
+  width: 100%; /* important */
+}
+
+/* select adjacent siblings */
+.col + .col{
+  margin-left: 30px;
+}
+
 .hero{
   padding: 100px 0;
   background: #23424a;
