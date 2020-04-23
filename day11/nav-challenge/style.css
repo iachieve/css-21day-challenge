@@ -1,3 +1,13 @@
+/* 
+////// For this challenge ///////
+
+- All text is in the text.md file
+
+// Requirements
+   1. Get all the navigation items next to one another
+   2. Add a space between all the items
+*/
+
 *,
 *::before,
 *::after {
@@ -18,9 +28,11 @@ h1 {
     font-size: 3rem;
     margin-top: 0;
 }
-.section-title{
-    color: rgb(224, 162, 224);
+
+.section-title {
+    color: #87629A;
 }
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -44,12 +56,8 @@ h1 {
 }
 
 .row {
-    /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-
-    /* can't use yet */
-    /* gap: 100px; */
 }
 
 .col {
@@ -61,19 +69,24 @@ h1 {
     margin-left: 30px;
 }
 
+
+header {
+    background: #136c72;
+    padding: .5em 0;
+}
+
+
 .hero {
     padding: 100px 0;
     background-color: #23424A;
     color: #FFF;
 }
 
-.hero__text,
-.primary-content {
+.hero__text {
     width: 62%;
 }
 
-.hero__img,
-.sidebar {
+.hero__img {
     width: 32%;
     align-self: flex-start;
 }
@@ -86,10 +99,50 @@ h1 {
     margin-top: 3em;
 }
 
-.sidebar {
-    text-align: center;
-    color: #fff;
-    background: #136c72;
-    padding: 1em;
+.primary-content {
+    width: 62%;
 }
 
+.sidebar {
+    width: 32%;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: #136c72;
+}
+
+
+
+
+
+
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    ;
+}
+
+.nav__link--button {
+    background: #fff;
+    color: #136c72;
+    padding: .25em 1em;
+    border-radius: 10em;
+}
+
+.nav__link:hover {
+    opacity: .75;
+}
+
+.nav__item {
+    border: 3px solid rebeccapurple;
+    margin-right: 1em;
+}
