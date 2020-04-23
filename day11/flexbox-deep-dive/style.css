@@ -1,0 +1,38 @@
+.container {
+  background: pink;
+  height: 50vh;
+  width: 80vw;
+  padding: 0.5em;
+  margin: 25vh auto 0;
+
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* SHORTCUT FOR DIRECTION/WRAP */
+  /* flex-flow: row nowrap; */
+
+  /* default flex-start */
+  /* justify-content: center; */
+
+  /* default stretch */
+  align-items: stretch;
+
+  /* align-content: center; */
+}
+
+.item {
+  background: lightblue;
+  margin: 0.5em;
+  border: 1px solid black;
+}
+
+.one {
+  flex: 2 250px;
+}
+.two {
+  flex: 1 2 250px;
+  align-self: flex-end;
+}
+.three {
+  flex: 2 250px;
+}
